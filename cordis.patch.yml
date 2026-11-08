@@ -1,0 +1,8 @@
+# dsh-restart-plugin bundle patch.
+#
+# The DSH plugin/bundle layer applies this file through package.json's
+# dsh.bundle.patch field. It inserts the plugin entry into the profile
+# configuration tree.
+- insert:
+    - id: dsh-restart-plugin
+      name: dsh-restart-plugin
